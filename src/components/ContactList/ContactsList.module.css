@@ -1,0 +1,43 @@
+.table {
+    padding: 0;
+    margin: 25px 0;
+    width: 100%;
+  }
+  
+  .theading {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .delete {
+    display: none;
+  }
+  
+  .tbody {
+    height: 50px;
+  }
+  
+  .name {
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .text {
+    font-size: 20px;
+  }
+  
+  .button {
+    margin-top: 10px;
+    background-color: #da34aecb;
+    border: 3px solid #eb50c2;
+    border-radius: 15px;
+    padding: 5px 20px;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background: #e92096;
+    box-shadow: 0 5px 10px -1px #c21081cf;
+  }
